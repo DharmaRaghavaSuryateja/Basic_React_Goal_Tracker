@@ -1,0 +1,74 @@
+.Root
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Input_form
+{
+    width: 50%;
+    height: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    -webkit-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.69);
+    box-shadow: -1px 3px 10px 0px rgba(0,0,0,0.69);
+    padding: 0 10px;
+}
+
+.Input_form_textArea
+{
+   padding: 0 20px;
+   width: 250px;
+   height: 30px;
+   box-sizing: border-box;
+   font-size: medium;
+
+
+}
+
+.Input_form_textArea.invalid
+{
+   padding: 0 20px;
+   width: 250px;
+   height: 30px;
+   box-sizing: border-box;
+   font-size: medium;
+   background-color: rgb(231, 56, 56);
+
+
+}
+
+.Input_form_textArea:focus
+{
+    background-color: rgb(205, 187, 187);
+    color: white;
+    font-size: medium;
+}
+.Input_form_button
+{
+    margin: 10px 0;
+   width: 120px;
+   height: 35px;
+   background-color:#AC0E77;
+   color: white;
+   border-radius: 5px;
+   border: none;
+}
+.Input_form_button:active
+{
+ 
+  width: 121px;
+  height: 36px;
+  background-color: #c33f97;
+}
+
+@media (max-width:768px) {
+    .Input_form_button
+    {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,42 @@
+.Root
+{
+    width: 300px;
+    height: 100px;
+   
+}  
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 20px 20px;
+}
+
+.delete,.cancel
+{
+    background-color: #AC0E77;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 70px;
+    height: 30px;
+  
+
+}
+
+.backdrop
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+   
+}
